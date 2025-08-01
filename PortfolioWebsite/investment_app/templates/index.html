@@ -1,9 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Investment App</title>
-</head>
-<body>
-    <h1>Hello, Investment App!</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}Home · Investment App{% endblock %}
+
+{% block content %}
+  <section class="text-center py-5">
+    <h1 class="display-5 fw-bold">Investment App!</h1>
+    <p class="lead mt-3">
+      This is your placeholder homepage. We’ll add the real hero & navigation soon.
+    </p>
+    <div class="mt-4">
+      <a href="#" class="btn btn-primary me-2">Get Started</a>
+      <a href="#" class="btn btn-outline-secondary">Explore Features</a>
+    </div>
+  </section>
+{% endblock %}
